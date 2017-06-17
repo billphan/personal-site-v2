@@ -1,0 +1,125 @@
+body { 
+  color: white;
+  line-height: 1.3;
+  background: black;
+  font-style: normal; 
+  font-weight: normal; 
+  font-family: "SF-Regular", Helvetica, Arial, sans-serif; 
+}
+
+::selection {
+  color: white;
+  text-shadow: none;
+  background: #00FF99;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+hr {
+  border: 0;
+  padding: 0;
+  width: 100%;
+  height: 1px;
+  opacity: 0.5;
+  display: block;
+  margin: 0 auto;
+  margin: 15px 0;
+  border-top: 1px solid #aeaeae;
+}
+
+a {
+  color: inherit; 
+  cursor: pointer;
+  border-style: solid;
+  text-decoration: none;
+  border-color: #00FF99;
+  border-width: 0 0 0.15em 0; 
+}
+
+a:hover {
+  border-color: #FF0080;
+  border-width: 0 0 0.15em 0; 
+  transition-delay: .1s;
+  transition: border-color .3s linear;
+}
+
+li {
+  border: 0;
+  color: #000;
+  margin: 0 auto;
+  font-weight: 300;
+  text-align: center;
+  padding: 0 30px 0 0;
+  display: inline-block;
+  font: 22px/1 "SF-Regular", Helvetica, Arial, sans-serif;
+}
+
+.intro {
+  margin: 0 auto;
+  max-width: 65%;
+  padding: 125px 0 0 0;
+  text-align: left;
+}
+
+.intro {
+  font-size: 34px;
+}
+
+.links {
+  text-decoration: none !important;
+}
+
+.links li a {
+  color: #fff;
+}
+
+i.fa {
+  margin: 0;
+  padding: 0 10px 0 0;
+  vertical-align: baseline;
+}
+
+@font-face {
+  font-family: 'SF-Ultralight';
+  src: url('../assets/fonts/SanFrancisco-Ultralight.otf');
+  local('SanFrancisco-Ultralight'),
+  url('../assets/fonts/SanFrancisco-Ultralight.otf')
+}
+
+@font-face {
+  font-family: 'SF-Thin';
+  src: url('../assets/fonts/SanFrancisco-Thin.otf');
+  local('SanFrancisco-Thin'),
+  url('../assets/fonts/SanFrancisco-Thin.otf')
+}
+
+@font-face {
+  font-family: 'SF-Light';
+  src: url('../assets/fonts/SanFrancisco-Light.otf');
+  local('SanFrancisco-Light'),
+  url('../assets/fonts/SanFrancisco-Light.otf')
+}
+
+@font-face {
+  font-family: 'SF-Regular';
+  src: url('../assets/fonts/SanFrancisco-Regular.otf');
+  local('SanFrancisco-Regular'),
+  url('../assets/fonts/SanFrancisco-Regular.otf')
+}
+
+@font-face {
+  font-family: 'SF-Medium';
+  src: url('../assets/fonts/SanFrancisco-Medium.otf');
+  local('SanFrancisco-Medium'),
+  url('../assets/fonts/SanFrancisco-Medium.otf')
+}
+
+@font-face {
+  font-family: 'SF-Bold';
+  src: url('../assets/fonts/SanFrancisco-Bold.otf');
+  local('SanFrancisco-Bold'),
+  url('../resources/fonts/SanFrancisco-Bold.otf')
+}
